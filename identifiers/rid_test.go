@@ -7,8 +7,7 @@ import (
 	"time"
 )
 
-func TestAppID(t *testing.T) {
-	fmt.Println(time.Now())
+func ExampleAppID(t *testing.T) {
 	generateAndPrintRID[App]()
 	generateAndPrintRID[Trace]()
 }
